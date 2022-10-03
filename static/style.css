@@ -1,0 +1,161 @@
+body{
+    width:100%;
+    margin:0;
+    background-color: #e3ebff;
+    position:relative;
+}
+body h1{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 300%;
+}
+.btns{
+    text-align: center;
+    margin-top:3%;
+    margin-bottom: 5%;
+}
+.btns button{
+    border:none;
+    font-size: 150%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1% 1.5%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btns button:first-child{
+    background-color: skyblue;
+}
+.btns button:last-child{
+    background-color: red;
+}
+body table{
+    width: 100%;
+}
+thead tr ,tbody tr{
+    text-align: center;
+}
+
+thead tr{
+    font-weight: bold;
+    color:green;
+    font-size: 150%;
+    padding:0px;
+}
+body table tbody tr input[type="submit"]{
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size:100%;
+}
+#path_remove{
+    width:20%;
+    background-color:#fff;
+    text-align:center;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#000;
+    font-size: 170%;
+    position: absolute;
+    left:40%;
+    top:90%;
+    display: none;
+    padding: 2% 0;
+}
+#path_remove button{
+    font-size:100%;
+    border:none;
+    padding:0 5%;
+    background-color:cornflowerblue;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+#path_remove button:last-child{
+    background-color:red;
+}
+#path_add{
+    width:30%;
+    background-color:#fff;
+    text-align:center;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#000;
+    font-size: 170%;
+    position: absolute;
+    left:33%;
+    top:90%;
+    padding: 2%;
+    display: none;
+}
+#path_add label,
+#path_add input,
+#path_add button{
+    font-weight: bold;
+    font-size: 75%;
+    margin-bottom: 1%;
+}
+#path_add button{
+    font-size:100%;
+    border:none;
+    padding:2% 5%;
+    background-color:cornflowerblue;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 2%;
+}
+#path_add button:last-child{
+    background-color:red;
+}
+@media (max-width:906px) {
+    #path_add{
+        width: 50%;
+        left:23%;
+    }
+    #path_remove{
+        width: 40%;
+        left: 30%;
+    }
+}
+@media (max-width:686px) {
+    #path_add{
+        width: 70%;
+        left:12.5%;
+    }
+    #path_remove{
+        width: 50%;
+        left: 25%;
+    }
+}
+@media (max-width:490px) {
+    #path_add{
+        width: 90%;
+        left:3%;
+    }
+    #path_remove{
+        width: 70%;
+        left: 15%;
+    }
+}
+@media (max-width:378px) {
+    #path_add{
+        width: 100%;
+        left:0%;
+    }
+    #path_remove{
+        width: 90%;
+        left: 5%;
+    }
+}
